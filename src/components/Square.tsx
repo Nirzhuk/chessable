@@ -1,11 +1,11 @@
 import { useContext, createElement, useCallback } from 'react'
 import styled from 'styled-components';
-import { getSquareColor, getGizmoColor } from 'src/core/helpers/squareHelpers';
+import { getSquareColor, getGizmoColor } from '../core/helpers/squareHelpers';
 import Pawn from './Pieces/Pawn';
-import AppContext from 'src/hooks/AppContext';
-import { possiblesMovements } from 'src/core/pieces/movementHelpers';
+import AppContext from '../hooks/AppContext';
+import { possiblesMovements } from '../core/pieces/movementHelpers';
 import Queen from './Pieces/Queen';
-import { normalizePieceType } from 'src/core/pieces/utils';
+import { normalizePieceType } from '../core/pieces/utils';
 
 
 interface SquareProps {

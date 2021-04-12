@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import { fenMapper, piecePerRow,extractPiecesRow } from 'src/core/helpers/FEN';
-import AppContext from 'src/hooks/AppContext';
+import { fenMapper, piecePerRow,extractPiecesRow } from '../../core/helpers/FEN';
+import AppContext from '../../hooks/AppContext';
 import { ChessboardStyled, ChessboardContainerStyled, ChessboardColumns, ChessboardRows, CoordTile} from './Chessboard.styled'
 import Square from '../Square';
 

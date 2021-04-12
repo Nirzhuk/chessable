@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import AppContext from 'src/hooks/AppContext';
+import AppContext from '../hooks/AppContext';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import Chessboard from '../components/Chessboard';

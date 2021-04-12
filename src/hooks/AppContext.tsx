@@ -1,7 +1,7 @@
 
 import { createContext, useReducer, Dispatch } from 'react'
-import { generatePieceLegalRandomPosition } from 'src/core/challenge';
-import { movementToFEN } from 'src/core/pieces/movementHelpers';
+import { generatePieceLegalRandomPosition } from '../core/challenge';
+import { movementToFEN } from '../core/pieces/movementHelpers';
 
 export interface PieceCoord {
     x: number;

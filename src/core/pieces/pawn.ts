@@ -1,4 +1,4 @@
-import { PieceCoord } from "src/hooks/AppContext";
+import { PieceCoord } from "../../hooks/AppContext";
 import { piecePerRow, } from "../helpers/FEN";
 import { normalizePieceType } from "./utils";
 
